@@ -1,0 +1,77 @@
+#boxes{
+    content:"";
+    display: table;
+    clear: both;
+
+}
+div{
+    float: center;
+    height: auto;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+#box{
+    border: 1px solid rgb(180, 178, 178);
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+.success{
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.success:hover{
+    color: black;
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.label{
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    }
+.button{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(255, 230, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(223, 201, 5);
+}
+#hr{
+    width: 60%;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+.tb{
+    border-radius: 5px;
+    border: 1px solid rgb(180, 178, 178);
+}

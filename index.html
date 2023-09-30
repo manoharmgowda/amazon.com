@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sign up/create account</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <center>
+            <img src="images//amazon.jpg" height="10%" width="15%"/>
+            <main id="boxes">
+                <div id="box">
+                    <form id="amzsignup">
+                        <p style="font-family: Arial,sans-serif;font-size: 28px; text-align: left;">Create Account</p>
+                        <p class="label" style="text-align: left; padding-bottom: 0px;">Your name</p>
+                        <input type="text" class="tb" name="customername" maxlength="50" placeholder="First and Last name" style="height: 25px; width: 95%;" required/><br>
+                        <p class="label" style="text-align: left; padding-bottom: 0px;">Mobile number</p>
+
+                        <select name="countrycode" class="tb" id="mob" style="height: 30px; width:20%;" required>
+                            <option>IN +91</option>
+                            <option>AF +93</option>
+                            <option>VI +1</option>
+                            <option>DM +45</option>
+                            <option>EL +44</option>
+                        </select>                       
+                        <input type="number" class="tb" name="phonenum" maxlength="10" placeholder="Mobile number" style="height: 25px; width: 75%;padding-top: 0px;" required/><br>
+                        <p class="label" style="text-align: left; padding-bottom: 0px;">Email(optional)</p>
+                        <input type="email" class="tb" name="eid" maxlength="50" placeholder="" style="height: 25px; width: 95%;"/><br>
+                        <p class="label" style="text-align: left; padding-bottom: 0px;">Password</p>
+                        <input type="password" class="tb" name="pwd" maxlength="10" placeholder="Atleast 6 Charecters" style="height: 25px; width: 95%;"/><br>
+                        <p style="text-align: left;font-weight: lighter;">Passwords must be atleast 6 charecters</p>
+                        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: justify;">By enrolling your mobile phone number, you consent<br> 
+                            to receive automated security notifications via text<br> 
+                            message from Amazon. Message and data rates may<br> apply.</p> 
+                        <input type="button" class="button" name="continue" value="Continue"/>
+                        <hr id="hr"><br>
+                        <p class="p">Already have an account?<a href="signin(amazon).html">Sign In</a><br>
+                        Buying for work?<a href="#">Create a free business account</a></p>
+                        <br><br>
+                        <p class="p">By creating an account or logging in, you agree to<br>
+                            Amazon’s <a href="#">Conditions</a> of Use and <a href="#">Privacy Policy</a></p>
+                </form>       
+                </div>
+            </main>
+        </center>
+    </body>
+</html>
